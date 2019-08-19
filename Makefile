@@ -5,7 +5,8 @@ LDLIBS	= -L../format_string -lformat_string
 OBJS	= direxp.o
 SUBDIRS	= tests
 
-include ../common/makefiles/dirs.mak
+INSTALL_DIR = usr/lib
+INCLUDE_DIR = usr/include
 
 CFLAGS += -fPIC
 LDFLAGS = -shared -Wl,-soname,$(TARGET)
