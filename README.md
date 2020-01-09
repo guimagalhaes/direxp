@@ -1,5 +1,5 @@
 # direxp
-C++ library for working browsing directories recursevely and calling a processing handler on every subdirectory.
+C++ library for browsing directories recursevely and calling a processing handler on every subdirectory.
 
 Provides additional file handler helpers.
 It makes use of the 'format' library available on https://github.com/guimagalhaes/format.
